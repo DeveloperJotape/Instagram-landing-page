@@ -1,0 +1,36 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+/* Instagram Phone */
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.instagram-phone{
+    width: 50%;
+}
+/* Instagram Login */
+.instagram-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
