@@ -71,7 +71,6 @@ a{
 }
 .form-login input[type='text']{
     margin-top: 2rem;
-    color: #dbdbdb;
 }
 .form-login button{
     width: 300px;  
@@ -118,4 +117,19 @@ a{
 .sign-up a{
     color: #358fca;
     font-weight: 700;
+}
+/* Get the App */
+.get-the-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.get-the-app p{
+    font-size: 15px;
+}
+.get-the-app img{
+    margin-top: 1.6rem;
+    max-width: 150px;
 }
