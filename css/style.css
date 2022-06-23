@@ -48,19 +48,23 @@ a{
     width: 100%;
 }
 .login-instagram{
-    width: 75%;
+    width: 80%;
     padding: 1.3rem 0;  
 }
 .login-instagram img{
     margin-top: 2.5rem;
 }
+.card-login{
+    width: 100%;
+}
 .form-login{
+    width: 100%;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 .form-login input{
-    width: 300px;  
+    width: 80%;  
     height: 35px; 
     text-align: left;
     border: 1px solid #dbdbdb;
@@ -73,7 +77,7 @@ a{
     margin-top: 2rem;
 }
 .form-login button{
-    width: 300px;  
+    width: 80%;  
     color: #fff;
     background: #aedaf8;
     height: 35px; 
@@ -87,7 +91,11 @@ a{
 .form-login button:hover{
     background-color: #358fca;
 }
+.login-instagram{
+    text-align: center;
+}
 .login-instagram p{
+    width: 80%;  
     margin: 5px 0 20px 0;
 }
 .login-facebook a{
@@ -106,8 +114,9 @@ a{
 }
 /* Sign-up */
 .sign-up{
+    text-align: center;
     margin-top: 0.8rem;
-    width: 75%;
+    width: 80%;
     padding: 1.3rem 0; 
     min-height: 5rem;
     display: flex;
@@ -115,6 +124,7 @@ a{
     justify-content: center;
 }
 .sign-up a{
+    width: 80%;
     color: #358fca;
     font-weight: 700;
 }
@@ -125,6 +135,8 @@ a{
     align-items: center;
     flex-direction: column;
     margin-top: 2rem;
+    text-align: center;
+    
 }
 .get-the-app p{
     font-size: 15px;
@@ -132,4 +144,37 @@ a{
 .get-the-app img{
     margin-top: 1.6rem;
     max-width: 150px;
+}
+
+/* Phone */
+@media (max-width: 1410px) {
+    .instagram-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }    
+}
+@media (max-width: 975px) {
+    .instagram-wrapper{
+        width: 100%;
+    } 
+    .instagram-phone{
+        display: none;
+    }   
+}
+
+@media (max-width: 650px){
+    .instagram-login{
+        width: 100%;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    } 
+    .instagram-phone{
+        display: none;
+    } 
+    .group{
+        border: none;
+    }  
 }
